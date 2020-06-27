@@ -1,0 +1,396 @@
+/* Navbar */
+
+
+
+
+
+/* Jumbotron */
+
+.jumbotron {
+    background-image: url('/img/background.png');
+    background-size: cover;
+    height: 661px;
+    margin-top: -80px;
+    text-align: center;
+    box-shadow: inset 0 0 0 2000px rgba(37, 58, 75, 0.8);
+}
+
+.jumbotron .display-4 {
+    color: white;
+    margin-top: 130px;
+    margin-bottom: 25px;
+    font-weight: 500;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    font-size: 64px;
+}
+
+.jumbotron .lead {
+    color: white;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+
+
+
+/* Utility */
+
+.tombol_masuk_biru {
+    border-radius: 25px;
+    height: 34px;
+    width: 96px;
+    font-size: 14px;
+    background-color: #253A4B;
+    border-color: white;
+    color: white;
+    margin-right: 10px;
+    font-weight: 500;
+
+}
+
+.tombol_daftar_putih {
+    border-radius: 25px;
+    height: 34px;
+    width: 96px;
+    font-size: 14px;
+    background-color: white;
+    border-color: #253A4B;
+    color: #253A4B;
+    font-weight: 500;
+}
+
+.tombol_sembako {
+    margin-bottom: 137px;
+    border-radius: 25px;
+    height: 53px;
+    width: 314px;
+    font-size: 20px;
+    background-color: white;
+    border-color: #253A4B;
+    color: #253A4B;
+    font-weight: 500;
+}
+
+.tombol_konfirmasi {
+    border-radius: 25px;
+    font-size: 16px;
+    background-color: white;
+    border-color: #253A4B;
+    color: #253A4B;
+    font-weight: 500;
+    height: 40px;
+    width: 181px;
+}
+
+.tombol_daftar_oren {
+    margin-left: 30px;
+    margin-top: 15px;
+    border-radius: 5px;
+    height: 40px;
+    width: 115px;
+    font-size: 14px;
+    border-color: #FF4500;
+    background-color: #FF4500;
+    color: white;
+    font-weight: 500;
+}
+
+.tombol_masuk_oren {
+    margin-left: -190px;
+    margin-top: 70px;
+    border-radius: 5px;
+    height: 40px;
+    width: 115px;
+    font-size: 14px;
+    border-color: #FF4500;
+    background-color: #FF4500;
+    color: white;
+    font-weight: 500;
+}
+
+.tombol_kirim_oren {
+    margin-left: 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+    height: 40px;
+    width: 115px;
+    font-size: 14px;
+    border-color: #FF4500;
+    background-color: #FF4500;
+    color: white;
+    font-weight: 500;
+}
+
+.iconify {
+    color: #253a4b;
+    font-size: 44.999996185302734px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+    background-color: RoyalBlue;
+}
+
+
+
+
+/* Info Panel */
+
+.info-panel {
+    background-color: transparent;
+    padding: 50px;
+}
+
+.info-panel img {
+    margin-bottom: 20px;
+    margin-left: 85px;
+}
+
+.info-panel h4 {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.info-panel p {
+    color: #9F9F9F;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+
+
+/* Working Space */
+.workingspace {
+    margin-top: 40px;
+    background-color: #f9f9f9;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+    margin-bottom: 150px;
+}
+
+.workingspace img {
+    border-radius: 5px;
+}
+
+.workingspace h3 {
+    font-size: 26px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+
+.workingspace p {
+    color: #9F9F9F;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+
+
+
+/* Registration Page */
+
+.logo-big img {
+    width: 320px;
+    height: 90px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.registration {
+    margin-bottom: 70px;
+}
+
+.registration .col-lg-4 {
+    margin-left: 100px;
+    background-color: #253A4B;
+    width: 434px;
+    height: 486px;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+}
+
+.registration .col-lg-6 {
+    background-color: #f3f3f3;
+    width: 520px;
+    height: 486px;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+}
+
+.registration .col-lg-4 h4 {
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+.registration .col-lg-4 p {
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 30px;
+    color: white;
+    font-size: 14px;
+}
+
+.registration .col-lg-6 h4 {
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+}
+
+.registration .signup_form input {
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 216px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid silver;
+    margin-bottom: 10px;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.registration .signup_form .lastname {
+    margin-left: 20px;
+}
+
+.registration .signup_form .email {
+    margin-top: 30px;
+    width: 455px;
+    height: 40px;
+}
+
+.registration .signup_form .password {
+    margin-top: 30px;
+}
+
+.registration .signup_form .password2 {
+    margin-left: 20px;
+}
+
+.registration .form-check {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.registration .form-check label {
+    margin-left: 10px;
+    margin-top: -10px;
+    font-weight: 200;
+}
+
+.background-outlined {
+    position: absolute;
+    bottom: -30px;
+    right: 0px;
+    z-index: -1;
+}
+
+
+
+
+/* Login Page */
+
+.login {
+    margin-bottom: -10px;
+}
+
+.login .form-box {
+    width: 520px;
+    height: 440px;
+    position: relative;
+    margin: auto;
+    background: #f3f3f3;
+    padding: 5px;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+    margin-bottom: 120px;
+}
+
+.login .form-box h4 {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+}
+
+.input-group {
+    top: 100px;
+    position: absolute;
+    width: 470px;
+}
+
+.input-field {
+    width: 455px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    border: 1px solid silver;
+    padding-left: 10px;
+    border-radius: 8px;
+}
+
+.login .lupa-sandi {
+    margin-left: 220px;
+}
+
+.login .form-check {
+    margin-top: 0px;
+    margin-left: 30px;
+}
+
+.login .form-check label {
+    margin-left: 0px;
+    margin-top: auto;
+    font-weight: 200;
+}
+
+.login .form-check-akun {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+
+
+
+/* Forgot Password Page */
+
+.forgot {
+    margin-bottom: 120px;
+}
+
+.forgot .form-box {
+    width: 520px;
+    height: 308px;
+    position: relative;
+    margin: auto;
+    background: #f3f3f3;
+    padding: 5px;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+    margin-bottom: 120px;
+}
+
+.forgot .form-box h4 {
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+}
+
+.forgot .label-back {
+    margin-top: 180px;
+    padding-left: 30px;
+}
