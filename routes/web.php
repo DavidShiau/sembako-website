@@ -28,3 +28,7 @@ Route::get('/login', function () {
 Route::get('/forgot', function () {
     return view('forgot');
 });
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+});

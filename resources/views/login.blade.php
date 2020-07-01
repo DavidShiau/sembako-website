@@ -1,7 +1,7 @@
 @extends('layout/main')
 @section('title', 'Login')
 
-@section('container')
+@section('content')
 
 
 <div class="logo-big">

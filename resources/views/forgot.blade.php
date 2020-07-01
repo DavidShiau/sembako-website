@@ -1,7 +1,7 @@
 @extends('layout/main')
 @section('title', 'Lupa Kata Sandi')
 
-@section('container')
+@section('content')
 
 
 <div class="logo-big">
