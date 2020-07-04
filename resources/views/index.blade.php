@@ -32,7 +32,11 @@
         <div class="container">
             <h1 class="display-4">Sembako Terjangkau Untuk <br> Semua Masyarakat</h1>
             <p class="lead">Anda tidak perlu khawatir mencari kebutuhan pangan sembako murah, <br> semuanya bisa dicari melalui layanan kami</p>
-        <a href="/dashboard" class="btn btn-primary tombol_sembako">Cari Sembako Sekarang<span class="iconify" data-inline="false" data-icon="bi:arrow-right-circle-fill"></span></a>
+                <a href="/dashboard" class="btn tombol_sembako">Cari Sembako Sekarang
+                    <span class="arrow-btn">
+                        <i class="fa fa-arrow-circle-right"></i>
+                    </span>
+                </a>  
         </div>
     </div>
 

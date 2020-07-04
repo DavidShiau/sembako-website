@@ -7,12 +7,16 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="search-container">
+                
+                <div class="search-box">
                     <form action="/">
-                        <input type="text" placeholder=" Cari sembako Anda disini.." name="search">
-                        <button type="submit"><i class="fa fa-search"></i></button>
+                        <input type="text"  class="search-txt" name="" placeholder=" Cari sembako Anda disini.." >
+                        <a class="search-btn" href="/dashboard">
+                            <i class="fa fa-search"></i>
+                        </a>
                     </form>
                 </div>
+                
 
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav ml-auto">

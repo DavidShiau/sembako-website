@@ -33,6 +33,7 @@
                             Ingat Saya
                         </label>
                 </div>
+                
                 <label class="lupa-sandi"><a href="/forgot">Lupa Kata Sandi?</a></label>
                 <label class="form-check-akun">Belum punya akun? <a href="/daftar">Daftar</a></label>
                 <button class="btn btn-primary tombol_masuk_oren" name="masuk" type="submit">Masuk</button>
