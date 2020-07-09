@@ -32,3 +32,11 @@ Route::get('/forgot', function () {
 Route::get('/dashboard', function () {
     return view('dashboard');
 });
+
+Route::get('/product', function () {
+    return view('product');
+});
+
+Route::get('/marketplace', function () {
+    return view('marketplace');
+});

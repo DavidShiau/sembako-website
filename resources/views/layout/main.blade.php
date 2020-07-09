@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lykmapipo/themify-icons@0.1.2/css/themify-icons.css">
 
     <title>@yield('title')</title>
+    <link rel="icon" type="image/png" href="/img/icon/favicon-32x32.png" sizes="32x32" />
     
 </head>
 

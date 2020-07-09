@@ -24,12 +24,12 @@
 		</div>
 		<div class="carousel-item">
 			<div class="carousel-info">
-				<h1>Warung Bu Tina</h1>
+				<h1>Toko Bu Tina</h1>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-				<a href="">Beli Sekarang</a>
+				<a href="/marketplace">Beli Sekarang</a>
 			</div>
 			<div class="carousel-image">
-				<img src="" alt="" />
+				<img src="/img/warung.jpg" alt="" />
 			</div>
 		</div>
 		<div class="carousel-item">
@@ -48,16 +48,17 @@
 		<h2>Paling Banyak Dicari</h2>
 		<div class="popular-carousel" data-flickity='{ "autoPlay": true, "prevNextButtons": false, "wrapAround": true }'>
 			<div class="single-item">
-				<div class="img" style="background-image: url('/img/beras.png');"></div>
+				<div class="img" style="background-image: url('/img/beras.png');"></div>		
+				<a href="/product" style="text-decoration: none;">
 				<div class="info">
 					<h3>Beras Putih Fortune</h3>
 					<p>This is a description for the item</p>
 
 					<div class="item-flex">
 						<div class="rating">
-							<span class="ti-star"></span>
-							<span class="ti-star"></span>
-							<span class="ti-star"></span>
+							<span class="fa fa-star"></span>
+							<span class="fa fa-star"></span>
+							<span class="fa fa-star"></span>
 							<span class="ti-star"></span>
 							<span class="ti-star"></span>
 						</div>
@@ -67,20 +68,22 @@
 						</div>
 					</div>
 				</div>
+				</a>
 			</div>
 
 			<div class="single-item">
 				<div class="img" style="background-image: url('/img/tepung.jpg');"></div>
+				<a href="/product" style="text-decoration: none;">
 				<div class="info">
 					<h3>Tepung Beras Rosebrand</h3>
 					<p>This is a description for the item</p>
 
 					<div class="item-flex">
 						<div class="rating">
-							<span class="ti-star"></span>
-							<span class="ti-star"></span>
-							<span class="ti-star"></span>
-							<span class="ti-star"></span>
+							<span class="fa fa-star"></span>
+							<span class="fa fa-star"></span>
+							<span class="fa fa-star"></span>
+							<span class="fa fa-star"></span>
 							<span class="ti-star"></span>
 						</div>
 
@@ -89,6 +92,7 @@
 						</div>
 					</div>
 				</div>
+				</a>
 			</div>
 
 			<div class="single-item">
@@ -99,10 +103,10 @@
 
 					<div class="item-flex">
 						<div class="rating">
-							<span class="ti-star"></span>
-							<span class="ti-star"></span>
-							<span class="ti-star"></span>
-							<span class="ti-star"></span>
+							<span class="fa fa-star"></span>
+							<span class="fa fa-star"></span>
+							<span class="fa fa-star"></span>
+							<span class="fa fa-star"></span>
 							<span class="ti-star"></span>
 						</div>
 
@@ -121,11 +125,11 @@
 
 					<div class="item-flex">
 						<div class="rating">
-							<span class="ti-star"></span>
-							<span class="ti-star"></span>
-							<span class="ti-star"></span>
-							<span class="ti-star"></span>
-							<span class="ti-star"></span>
+							<span class="fa fa-star"></span>
+							<span class="fa fa-star"></span>
+							<span class="fa fa-star"></span>
+							<span class="fa fa-star"></span>
+							<span class="fa fa-star"></span>
 						</div>
 
 						<div class="price">
@@ -143,9 +147,9 @@
 
 					<div class="item-flex">
 						<div class="rating">
-							<span class="ti-star"></span>
-							<span class="ti-star"></span>
-							<span class="ti-star"></span>
+							<span class="fa fa-star"></span>
+							<span class="fa fa-star"></span>
+							<span class="fa fa-star"></span>
 							<span class="ti-star"></span>
 							<span class="ti-star"></span>
 						</div>
@@ -340,7 +344,7 @@
 			</div>
 
 			<div class="single-item">
-				<div class="img" style="background-image: url('/img/gula.jpg');"></div>
+				<div class="img" style="background-image: url('/img/gula.jpg');"></div>	
 				<div class="info">
 					<h3>Gula Pasir <br> Gulaku</h3>
 					<p>This is a description for the item</p>
@@ -359,9 +363,11 @@
 						</div>
 					</div>
 				</div>
+			
 			</div>
 
 			<div class="single-item">
+				
 				<div class="img" style="background-image: url('/img/margarine.jpg');"></div>
 				<div class="info">
 					<h3>Blue Band Margarin</h3>
@@ -384,6 +390,11 @@
 			</div>
 		</div>
 	</div>
+	
+
+	<a href="/dashboard" class="act-btn">
+		<span class="fa fa-cart-plus" alt="" title="Cek Keranjang Belanja Kamu!"></span>
+	</a>
 
     @include('layout/footer')
 
